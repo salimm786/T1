@@ -3,6 +3,9 @@
 using namespace std;
 
 int main() {
-  cout << "This is Cool" << endl;
-  std::cout << "Hello World!\n";
+  
+  for(int i=0; i<10; i++)
+    cout << "This is Cool" << endl;
+  
+  cout << "Hello World!\n";
 }
